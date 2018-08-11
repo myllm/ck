@@ -52,7 +52,7 @@ $(function(){
             $(this).addClass("bcw").siblings().removeClass("bcw");
             $Ul.stop().animate({
                 "left":-index * Width
-            });
+            },500);
             Index=index;
         })
     });
@@ -65,7 +65,7 @@ $(function(){
         Index++;
         $Ul.stop().animate({
             "left":-Index * Width
-        });
+        },500);
         if(Index==$Li.length-1){
             $Cir.eq(0).addClass("bcw").siblings().removeClass("bcw");
         }else{
@@ -80,7 +80,7 @@ $(function(){
         Index--;
         $Ul.stop().animate({
             "left":-Index * Width
-        });
+        },500);
         if(Index==$Li.length-1){
             $Cir.eq(0).addClass("bcw").siblings().removeClass("bcw");
         }else{
