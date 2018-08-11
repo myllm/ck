@@ -1,0 +1,9 @@
+$(function(){
+    $.ajax({
+        type:"get",
+        url:"nav.html",
+        success:function(html){
+            $("nav").html(html);
+        }
+    });
+})

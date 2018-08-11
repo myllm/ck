@@ -1,0 +1,205 @@
+body{
+    color: #666;
+}
+body:before{
+    content:"";
+    display: table;
+}
+header .main>h3{
+    float: left;
+    width: 82px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 10px;
+}
+section{
+    margin: 70px 0 40px;
+}
+section .main>div{
+    padding:80px 0 60px;
+    text-align: center;
+}
+section .main>div>ul{
+    width:560px;
+    margin:0 auto 40px;
+    overflow: hidden;
+}
+section .main>div>ul>li{
+    width: 100px;
+    height: 90px;
+    float:left;
+}
+section .main>div>ul>li>div{
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 48px;
+    border:1px solid #666;
+    border-radius: 50%;
+    margin:0 auto;
+}
+section .main>div>ul>li>div.org{
+    border-color:#FF8C00;
+}
+section .main>div>ul>li>p{
+    margin-top:14px;
+}
+section .main>div>ul>li.org{
+    color:#FF8C00;
+}
+section .main>div>ul>li.line{
+    width: 130px;
+    height:26px;
+    border-bottom:1px solid #e6e6e6;
+    padding-top:25px;
+}
+section .main>div form>div{
+    width: 690px;
+    height: 262px;
+    border:1px solid #e6e6e6;
+    margin:0 auto;
+    padding:30px 0;
+    position:relative;
+}
+section .main>div form>div>p{
+    margin-bottom: 14px;
+    text-align:left;
+    overflow: hidden;
+}
+section .main>div form p>label{
+    width: 170px;
+    display: block;
+    float: left;
+    text-align: right;
+    line-height: 40px;
+}
+section .main>div form .message>p label[for]{
+    width: auto;
+    height: auto;
+    line-height: 1;
+    margin-left: 170px;
+}
+section .main>div form input{
+    margin-left:5px;
+}
+section .main>div form input[placeholder]{
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    border:1px solid #e6e6e6;
+    padding: 12px 10px 12px 15px;
+}
+section .main>div form>div>p span{
+    margin-left: 5px;
+    border:1px solid #ffe6e6;
+    color:#e65454;
+    padding: 4px 6px;
+}
+section .main>div form input::-webkit-input-placeholder{
+    color:#e6e6e6;
+}
+section .main>div form input:-moz-placeholder{
+    color:#e6e6e6;
+}
+section .main>div form input:-ms-input-placeholder{
+    color:#e6e6e6;
+}
+section .main>div form .message>p label[for] input{
+    margin-right: 2px;
+    vertical-align: top;
+}
+section .main>div form>div a{
+    color: #2f97ff;
+}
+section .main>div form input.btn{
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #ff8c00;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 170px;
+}
+section .main>div form .message>div.login{
+    margin-top:-7px;
+}
+section .main>div form span.hover{
+    display:none;
+}
+section .main>div form .password canvas{
+    margin-left: 5px;
+}
+section .main>div form .password canvas.hover{
+    display:none;
+}
+section .main>div form .success>div>.btn{
+    margin: 40px auto 0;
+}
+section .main>div form .success>div>h2{
+    color: #ff8c00;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+section .main>div form .success>div>a{
+    display:block;
+    width: 100px;
+    height: 18px;
+    margin: 10px auto 0;
+}
+section .main>div form>div.hover{
+    display:none;
+}
+/*模态框*/
+ body .model{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.3);
+    z-index:9999;
+    display: none;
+}
+ .model>ul{
+    width: 264px;
+    height: 162px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    background:#fff;
+    margin-left:-132px;
+    margin-top:-81px;
+    box-shadow:0 0 5px #e6e6e6;
+}
+ .model>ul>li{
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size:16px;  
+}
+ .bg-model>ul>li.line{
+    height: 0;
+    border-bottom:1px solid #e6e6e6;
+}
+ .bg-model>ul>li:nth-child(3){
+    color:#ff8c00;
+    margin:20px 0; 
+}
+ .model>ul>li:last-child{
+    width: 50px;
+    color:#fff;
+    line-height: 28px;
+    background-color: #ff8c00;
+    border:1px solid #ff8c00;
+    border-radius: 4px;
+    margin:0 auto;
+}
+ .suc-model>ul>li:nth-child(1){
+    color:#ff8c00;
+    margin:60px 0 20px;
+}

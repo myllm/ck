@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <a href="index.html"><img src="img/fwDE6qjf5YTO4AAAAABJRU5ErkJggg==.png" alt=""></a>
+            </div>
+            <h3>欢迎注册</h3>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div>
+                <ul>
+                    <li class="org">
+                        <div class="org">1</div>
+                        <p>基本信息</p>
+                    </li>
+                    <li class="line"></li>
+                    <li>
+                        <div>2</div>
+                        <p>设置密码</p>
+                    </li>
+                    <li class="line"></li>
+                    <li>
+                        <div>3</div>
+                        <p>注册成功</p>
+                    </li>
+                </ul>
+                <form>
+                    <div class="message">
+                        <p>
+                            <label>手机号码：</label>
+                            <input type="tel" name="phone" placeholder="请输入您的手机号码"
+                                   onkeyup="value=value.replace(/[^\d]/g,'')" required="required">
+                            <span class="hover"></span>
+                            <!--<span class="hover">请输入正确的手机号码！</span>-->
+                            <!--<span class="hover">该手机号码已注册！</span>-->
+                        </p>
+                        <p>
+                            <label>邀请人：</label>
+                            <input type="text" name="yqr" placeholder="非必填项">
+                            <span class="hover">该邀请人不存在！</span>
+                        </p>
+                        <p>
+                            <label for="msgcbx"><input type="checkbox" id="msgcbx" required="required">已阅读并同意<a href="#">《用户服务协议》</a></label>
+                        </p>
+                        <p>
+                            <input type="button" class="btn" id="msgbtn" value="下一步">
+                        </p>
+                        <div class="login">
+                            已有账号？<a href="login.html">登录</a>
+                        </div>
+                    </div>
+                    <div class="password hover">
+                        <p>
+                            <label>验证码：</label>
+                            <input type="text" placeholder="请输入验证码" >
+                            <canvas id="yzm" width="90" height="40" class="hover"></canvas>
+                            <span class="hover"></span>
+                        </p>
+                        <p>
+                            <label>设置登录密码：</label>
+                            <input type="password" name="upwd" placeholder="8~16位数字加字母组合，区分大小写" minlength="6" maxlength="16">
+                            <span class="hover"></span>
+                        </p>
+                        <p>
+                            <label>确认密码：</label>
+                            <input type="password" placeholder="8~16位数字加字母组合，区分大小写" class="pwdc">
+                            <span class="hover">请输入8~16位数字、字母或特殊符号！</span>
+                        </p>
+                        <p>
+                            <input type="button" class="btn" id="pwdbtn" value="下一步">
+                    </div>
+                    <div class="success hover">
+                        <div>
+                            <h2>恭喜注册成功获得188元红包，马上开通存管账户！</h2>
+                            <input type="button" class="btn" id="sucbtn" value="立即开通存管账户">
+                            <a href="#">什么是存管账户？</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <div class="bg-model model">
+        <ul>
+            <li>信息</li>
+            <li class="line"></li>
+            <li>请勾选《创客金融用户服务协议》!</li>
+            <li>确定</li>
+        </ul>
+    </div>
+    <div class="suc-model model">
+        <ul>
+            <li></li>
+            <li>注册失败，请重新注册</li>
+            <li>确定</li>
+        </ul>
+    </div>
+    <footer></footer>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/register.js"></script>
+</html>

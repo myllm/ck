@@ -1,0 +1,176 @@
+header .nav li:nth-child(5)>a{
+	border-bottom:2px solid #e66d17;
+	color:#e66d17;
+}
+section{
+	background-color: #f5f5f5;
+}
+section .clubbanner{
+	width: 100%;
+	height: 400px;
+	margin-top: 70px;
+	background:url(../img/index_banner.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+section .clubbanner .main{
+	position:relative;
+}
+section .clubbanner .main>div{
+	width: 432px;
+	position:absolute;
+	top:80px;
+	left:50%;
+	margin-left: -216px;
+	text-align: center;
+    color: #e1d2ab;
+}
+section .clubbanner .main>div h2{
+	margin:14px 0 30px;
+	font-size: 44px;
+	font-weight: normal;
+	line-height: 50px;
+	letter-spacing: 4px;
+}
+section .clubbanner .main>div a{
+	display: block;
+	width: 180px;
+	height: 40px;
+	margin:0 auto;
+	border: 1px solid #e1d2ab;
+	color:#e1d2ab;
+	font-size:14px;
+	line-height: 38px;
+}
+section .clubpreg{
+	color: #333;
+	margin-bottom: 40px;
+}
+section .clubpreg .main{
+	text-align: center;
+}
+section .main>h2.title{
+	padding:60px 0 40px;
+	font-size: 24px;
+	font-weight:normal;
+}
+section .clubpreg .main>ul{
+	width: 100%;
+	display:flex;
+	flex-flow:row wrap;
+	background: #fff;
+}
+section .clubpreg .main>ul>li{
+	width: 240px;
+	height: 177px;
+	border:1px solid  #f5f5f5;
+	border-top:none;
+	border-left:none; 
+	cursor: pointer;
+	position: relative;
+}
+section .clubpreg .main>ul li.noborder{
+	border: none;
+}
+section .clubpreg .main>ul li>img{
+	width: 80px;		
+	height: 80px;
+	margin-top:32px; 
+}
+section .clubpreg .main>ul li>p{
+	font-size: 14px;
+}
+section .clubpreg .main>ul li>div.hover{
+	display: block;
+}
+section .clubpreg .main>ul li>div{
+	position: absolute;
+	left:80%;
+	top:20px;
+	width: 236px;
+	height: 130px;
+	box-shadow: 0 0 15px #888888;
+	background-color: #fff;
+	z-index: 1;
+	padding: 27px 22px;
+	display: none;
+}
+section .clubpreg .main>ul li>div h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+section .clubpreg .main>ul li>div p{
+	text-align: left;
+}
+section .clubpreg .main>ul li>div span{
+	position: absolute;
+	left:-22px;
+	top:53px;
+	border:12px solid transparent;
+	border-right-color: #fff;
+}
+section .clubpreg .main>ul li.vip{
+	padding-top:88px; 
+}
+section .clubcpr{
+	margin-bottom: 40px;
+}						
+section table{
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+section .clubcpr .main>thead tr{
+	border-bottom: 2px solid #b9a97c;
+}
+section .clubcpr .main th{
+	width: 236px;
+	height: 88px;
+	font-size: 18px;
+    color: #b9a97c;
+}
+section .clubcpr .main tbody td{
+	border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    font-size: 14px;
+    width: 236px;
+    height: 66px;
+}
+section .clubrule{
+	text-align: center;
+	margin-bottom:40px; 
+}
+section .clubrule .main{
+	background: #fff;
+	overflow: hidden;
+}
+section .clubrule .main>div{
+	float:left;
+	font-size: 14px;
+	color: #363636;
+}
+section .clubrule .main>div th{
+	background: #5d5b59;
+    color: #fff;
+    width: 160px;
+    height: 47px;
+}
+section .clubrule .main>div td{
+	height: 68px;
+}
+section .clubrule .main>div table tr th:last-child{
+	width: 349px;
+}
+section .clubrule .main>div table tr td:last-child{
+	text-align: left;
+	padding-left: 40px;
+}
+section .clubrule .main>div:last-child{
+	margin-left:40px;
+	margin-top:10px; 
+	width: 510px;
+	text-align: left;
+}
+section .clubrule .main>div:last-child p{
+	padding: 14px 0;
+	line-height: 24px;
+}

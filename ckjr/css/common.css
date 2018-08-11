@@ -1,0 +1,241 @@
+body{
+	width: 100%;
+	min-width:1200px;
+}
+.main{
+	width: 1200px;
+	min-width:1200px;
+	margin:0 auto;
+}
+/*头部*/
+header{
+	width: 100%;
+	border-bottom:1px solid #E6E6E4;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 999;
+	background-color: #fff;
+	transition:all 1s;
+}
+header:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+header.bcl{
+	background-color:rgba(0,0,0,0);
+}
+header .main .logo{
+	width: 283px;
+	height: 70px;
+	float:left;
+}
+header .main .nav{
+	width: 534px;
+	float:right;
+}
+header .nav li{
+	float:left;
+	margin:0 6px;
+}
+header .nav li>a{
+	display:block;
+	width: 84px;
+	height: 69px;
+	font-size:14px;
+	text-align: center;
+	line-height: 69px;
+	padding:0 14px;
+}
+header .nav li:first-child a,header .nav li:last-child a{
+	width: 56px;
+}
+header .nav li:nth-child(5) a{
+	width: 98px;
+}
+header .nav li>a:hover{
+	border-bottom:2px solid #e66d17;
+	color:#e66d17;
+}
+header .main .reg{
+	width: 190px;
+	float:right;
+}
+header .main .reg>a{
+	float:right;	
+	width: 70px;
+	height: 32px;
+	font-size:14px;
+	text-align:center;
+	line-height: 32px;
+	border:1px solid #e66d17;
+	border-radius:2px;		
+	color:#e66d17;
+	margin:19px 3px 0 3px;
+}
+header .main .reg>a:first-child{
+	color:#fff;
+	background:#e66d17;
+}
+header .main .reg>a:hover{
+	color:#fff;
+	background:#e66d17;
+}
+/*已登录*/
+header .main .reg>a.hover{
+	display: none;
+}
+header .main .reg>div.islogin{
+	display:none;
+	float:right;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+header .main .reg>div.islogin.hover{
+	display: block;
+	width: 146px;
+	height: 70px;
+}
+header .main .reg>div.islogin>.myaccount{
+	position: relative;
+}
+header .main .reg>div.islogin:hover>.myaccount>ul{
+	display: block;
+}
+header .main .reg>div.islogin>.myaccount>p{
+	width: 146px;
+	height: 70px;
+	line-height: 70px;
+	position: relative;
+}
+header .main .reg>div.islogin>.myaccount>p>span{
+	display: block;
+	float: left;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	background:rgba(238,238,238,0.8) url("../img/uima.png") no-repeat center;
+	position:absolute ;
+	top: 14px;
+}
+header .main .reg>div.islogin>.myaccount>ul{
+	width: 146px;
+	position:absolute;
+	top:70px;
+	background-color: #fff;
+	display: none;
+}
+header .main .reg>div.islogin>.myaccount>ul>li{
+	width: 146px;
+	height: 40px;
+	border-bottom:1px solid #f2f2f2;
+	line-height: 39px;
+}
+header .main .reg>div.islogin:hover .myaccount>ul>li{
+	color:#e66d17;
+}
+header .main .reg>div.islogin>.myaccount>ul>li>a{
+	display: block;
+	width: 146px;
+}
+/*底部*/
+footer{
+	background:#545454;
+	color:#999;
+}
+footer .fTop{
+	border-bottom:1px solid #646464;
+	overflow:hidden;
+	padding:40px 0;
+	color:#fff;
+}
+footer .fTop>ul>li{
+	height: 136px;
+	float:left;
+}
+footer .fTop .flogo{
+	width: 336px;
+	color:#fff;
+	border-right:1px solid #646464;
+}
+footer .fTop .flogo img{
+	width: 178px;
+	height: 44px;
+}
+footer .flogo :nth-child(2){
+	line-height: 18px;
+	margin-top: 20px;
+}
+footer .flogo :nth-child(3){
+	font-size: 24px;
+	font-family:Helvetica;
+}
+footer .cons ul{
+	width: 464px;
+	padding-left:80px;
+	display:flex;
+	flex-wrap:wrap;
+	jusitify-content:spacing-around;
+}
+footer .cons li{
+	width: 128px;
+}
+footer .cons a{
+	display:block;
+	color:#A3A3A3;
+	line-height: 26px;
+}
+footer .cons .mcl{
+	margin-bottom:8px;
+	color:#fff;
+	line-height: 18px;
+}
+footer .cons li:last-child{
+	width:352px;
+	margin-top:14px;
+	margin-bottom:0;
+}
+footer .cons a:hover{
+	color:#fff;
+}
+footer .ewm{
+	width: 400px;
+}
+footer .ewm div{
+	float:right;
+	margin-left:20px;
+}
+footer .ewm img{
+	width: 122px;
+	height: 122px;
+}
+footer .ewm p{
+	text-align:center;
+	line-height: 28px;
+}
+footer .fBottom{
+	overflow:hidden;
+	margin-top:20px;
+}
+footer .fBottom p{
+	width: 310px;
+	height: 36px;
+	float:left;
+	margin-bottom:20px;
+}
+footer .fBottom ul{
+	float:right;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+footer .fBottom li{
+	float:left;
+	margin-left:10px;
+}
+footer .fBottom img{
+	width: 120px;
+	height: 42px;
+	border-radius:5px;
+}

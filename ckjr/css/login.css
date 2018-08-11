@@ -1,0 +1,119 @@
+body{
+    color: #666;
+}
+header .main>h3{
+    float: left;
+    width: 82px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 10px;
+}
+section{
+    margin: 70px 0 40px;
+    background:url("../img/login.jpg") no-repeat center ;
+}
+section .main{
+    height: 480px;
+    position: relative;
+}
+section .main>div>ul{
+    position: absolute;
+    width: 350px;
+    top:50px;
+    right:0;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #ff8c00;
+    background-color: #fff;
+}
+section .main>div>ul>li{
+    width: 310px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+section .main>div>ul>li:first-child{
+    margin-top:20px;
+}
+section .main>div>ul>li>h3{
+    font-size: 20px;
+    height: 20px;
+    color:#666;
+    font-weight: normal;
+    line-height: 20px;
+    float: left;
+}
+section .main>div>ul>li>a{
+    float: right;    
+}
+section .main>div>ul>li:first-child>a{
+    color:#0a8cf7;
+    font-size: 14px;
+}
+section .main>div>ul>.err{
+    border:1px solid #0a8cf7;
+    height: 20px;
+    font-size:14px;
+    line-height: 15px;
+    padding-left:20px;
+    margin-top:5px; 
+    color:#e65454;
+    visibility: hidden;
+}
+section .main>div>ul>li.hover{
+    visibility: visible;
+}
+section .main>div>ul>li>span{
+    display: block;
+    width: 42px;
+    height: 40px;
+    border:1px solid #bdbdbd;
+    border-right: none;
+    float:left;
+    background: #f3f3f3  no-repeat center;
+}
+section .main>div>ul>li:nth-child(3)>span{
+    background-image: url("../img/phone.png");
+    margin-bottom:10px;
+}
+section .main>div>ul>li input{
+    width: 268px;
+    height: 40px;
+    border:1px solid #bdbdbd;
+    padding-left:10px 
+}
+section .main>div>ul>li input::-webkit-input-placeholder{
+    color:#e6e6e6;
+}
+section .main>div>ul>li input:-moz-placeholder{
+    color:#e6e6e6;
+}
+section .main>div>ul>li input:-ms-input-placeholder{
+    color:#e6e6e6;
+}
+section .main>div>ul>li input .hover{
+    border-color:#0a8cf7;
+}
+section .main>div>ul>li:nth-child(4)>span{
+    background-image: url("../img/password.png");
+}
+section .main>div>ul>li#loginbtn{
+    height: 40px;
+    background-color: #ff8c00;
+    color:#fff;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+section .main>div>ul>li#loginbtn.click{
+    border:1px solid #0a8cf7;
+}
+section .main>div>ul>li:last-child{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 70px;
+
+}
